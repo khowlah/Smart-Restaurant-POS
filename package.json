@@ -1,0 +1,32 @@
+{
+  "name": "smart-restaurant-pos",
+  "version": "1.0.0",
+  "description": "Smart Restaurant & Café POS + Live Kitchen Display System Backend API",
+  "main": "src/server.js",
+  "type": "module",
+  "author": "khowlah al_hebshi <www.khowlah2001@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src tests"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "supertest": "^7.0.0",
+    "vitest": "^3.0.7"
+  }
+}
